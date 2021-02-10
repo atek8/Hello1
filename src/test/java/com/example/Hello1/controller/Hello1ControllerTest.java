@@ -23,6 +23,8 @@ public class Hello1ControllerTest {
     @Autowired
     private MockMvc mvc;
 
+    
+
     @Test
     public void whenHello1Method_thenReturnHello()
             throws Exception {
